@@ -1,5 +1,15 @@
+var app = angular.module("turboAdventure", [] );
+
+app.controller("turboAdventureController", function($scope){
+
+    $scope.first = "";
+    
+});
+
 //init functions
 //
+
+//TODO 'use strict' statement --> console
 function init() {
 	console.log("Call function Ready()");
 }
